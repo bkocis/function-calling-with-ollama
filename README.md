@@ -14,6 +14,7 @@ This Python application demonstrates how to use the Ollama library to create a c
 - Python 3.x
 - `ollama` library
 - `requests` library
+- Ollama model: llama3.1:8b-instruct-fp16
 
 ## Installation
 
@@ -23,6 +24,15 @@ This Python application demonstrates how to use the Ollama library to create a c
 ```
 pip install ollama requests
 ```
+
+3. Install Ollama and download the required model:
+   - Visit the official [Ollama models webste](https://ollama.com/library/llama3.1)
+   - Follow the installation instructions for your operating system
+   - Once Ollama is installed, open a terminal and run:
+     ```
+     ollama pull llama3.1:8b-instruct-fp16
+     ```
+   This command will download the required model.
 
 ## Usage
 
@@ -87,3 +97,11 @@ The `main()` function runs an infinite loop that:
 ## Note
 
 This application requires an active internet connection to communicate with the Ollama API and retrieve weather information.
+
+## License
+
+[Specify your license here]
+
+## Contributing
+
+[Specify how others can contribute to your project]
