@@ -98,10 +98,6 @@ The `main()` function runs an infinite loop that:
 
 This application requires an active internet connection to communicate with the Ollama API and retrieve weather information.
 
-## License
-
-[Specify your license here]
-
 ## Contributing
 
-[Specify how others can contribute to your project]
+Feel free to suggest changes to this example code.
